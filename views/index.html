@@ -1,0 +1,47 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IP Adress Api</title>
+    <meta name="description" content="API that provides IP address, language, and software of the user.">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  </head>
+  <body>
+    <header>
+      <h3 id="ipaddress">
+        
+      </h3>
+    </header>
+
+    
+
+    <footer style="position:absolute; bottom:0; text-align:center; left:45%; height:40px;">
+      <p>
+        Coded by
+      
+      <a href="https://www.linkedin.com/in/pavel-gichevski-8223ab5b/">
+         Pavel Gichevski
+      </a>
+        </p>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
